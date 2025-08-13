@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import { useRef } from 'react';
 import { motion, useInView } from 'framer-motion';
 import { BiLogoGmail } from 'react-icons/bi';
 import { BsGithub } from 'react-icons/bs';
@@ -56,17 +56,44 @@ export default function Contact() {
               </motion.button>
 
               <div className='flex items-center gap-x-2 lg:gap-x-5'>
-                {[BiLogoGmail, IoLogoLinkedin, IoLogoTwitter, BsGithub].map((Icon, index) => (
-                  <motion.a
-                    key={index}
-                    href="#"
-                    className="bg-white p-2 lg:p-3 rounded border-2 border-black"
-                    whileHover={{ scale: 1.1, backgroundColor: "#000", color: "#fff" }}
-                    whileTap={{ scale: 0.9 }}
-                  >
-                    <Icon className="w-4 h-4 lg:w-5 lg:h-5" />
-                  </motion.a>
-                ))}
+                <motion.a
+                  href="mailto:tusharnavneet@gmail.com"
+                  className="bg-white p-2 lg:p-3 rounded border-2 border-black"
+                  whileHover={{ scale: 1.1, backgroundColor: "#000", color: "#fff" }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  <BiLogoGmail className="w-4 h-4 lg:w-5 lg:h-5" />
+                </motion.a>
+                <motion.a
+                  href="https://linkedin.com/in/tusharnavneet"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white p-2 lg:p-3 rounded border-2 border-black"
+                  whileHover={{ scale: 1.1, backgroundColor: "#000", color: "#fff" }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  <IoLogoLinkedin className="w-4 h-4 lg:w-5 lg:h-5" />
+                </motion.a>
+                <motion.a
+                  href="https://github.com/tusharnavneet"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white p-2 lg:p-3 rounded border-2 border-black"
+                  whileHover={{ scale: 1.1, backgroundColor: "#000", color: "#fff" }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  <BsGithub className="w-4 h-4 lg:w-5 lg:h-5" />
+                </motion.a>
+                <motion.a
+                  href="https://x.com/@navneettushar"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-white p-2 lg:p-3 rounded border-2 border-black"
+                  whileHover={{ scale: 1.1, backgroundColor: "#000", color: "#fff" }}
+                  whileTap={{ scale: 0.9 }}
+                >
+                  <IoLogoTwitter className="w-4 h-4 lg:w-5 lg:h-5" />
+                </motion.a>
               </div>
             </motion.div>
           </form>
@@ -79,33 +106,33 @@ export default function Contact() {
           className='lg:w-1/2'
         >
           <div className='font-extrabold text-2xl lg:text-5xl mt-5 lg:mt-0 space-y-1 lg:space-y-3'>
-            <h2>Let's <span className='text-white' style={{ WebkitTextStroke: '1px black' }}>talk</span> for</h2>
+            <h2>Let&apos;s <span className='text-white' style={{ WebkitTextStroke: '1px black' }}>talk</span> for</h2>
             <h2>Something special</h2>
           </div>
 
-          <p className='text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-6'>I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences.</p>
+          <p className='text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-6'>I seek to push the limits of creativity to create high-engaging, user-friendly, and memorable interactive experiences. Let&apos;s collaborate to build something amazing together!</p>
 
           <div className='font-semibold text-sm lg:text-xl flex flex-col mt-6 gap-2 lg:gap-4'>
             <motion.a
               whileHover={{ x: 5 }}
               className='flex items-center gap-2 group'
-              href="mailto:Youremail@gmail.com"
+              href="mailto:tusharnavneet3@gmail.com"
             >
               <span className='border-2 transition-all border-transparent group-hover:border-black rounded-full p-1'>
                 <IoMdMail className="w-4 h-4 lg:w-5 lg:h-5" />
               </span>
-              Youremail@gmail.com
+              tusharnavneet3@gmail.com
             </motion.a>
 
             <motion.a
               whileHover={{ x: 5 }}
               className='flex items-center gap-2 group'
-              href="tele:1234567890"
+              href="tel:+918709661636"
             >
               <span className='border-2 transition-all border-transparent group-hover:border-black rounded-full p-[5px]'>
                 <FaPhone className="w-3 h-3 lg:w-4 lg:h-4" />
               </span>
-              1234567890
+              +91-8709661636
             </motion.a>
           </div>
         </motion.div>

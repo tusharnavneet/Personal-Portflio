@@ -1,4 +1,3 @@
-import React from 'react';
 import { motion } from 'framer-motion';
 
 export default function About() {
@@ -26,15 +25,15 @@ export default function About() {
         </h2>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-5 lg:mt-10">
-          I'm a passionate full-stack developer specializing in **React.js & Node.js**. I thrive on blending technical expertise with sleek UI/UX design to build high-performing, user-friendly applications.
+          My name is **Tushar Navneet**. I am a passionate **Full Stack Developer** and quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          My web development journey started in **2015**, and since then, I've continuously evolved, taking on new challenges and keeping up with the latest technologies. Today, I build **cutting-edge web applications** using **Next.js, TypeScript, NestJS, TailwindCSS, Supabase, and more**.
+          I love web development and enjoy making applications that are useful and efficient. My core skills are based on **JavaScript** and the **MERN stack**. I recently completed my internship at **IIT Jammu** and am currently studying **Computer Science Engineering** at **IIIT Senapati**.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          Beyond coding, I enjoy sharing insights on **Twitter**, engaging with **Indie Hackers**, and following the journey of **early-stage startups**. Feel free to follow me on **Twitter** or check out my projects on **GitHub**.
+          I have experience building **AI-powered platforms**, **scalable web applications**, and solving **700+ competitive programming problems**. I enjoy mentoring other developers and am available for job opportunities that match my skills and interests.
         </p>
       </motion.div>
     </div>
