@@ -18,30 +18,30 @@ const projects = [
     link: "https://github.com/tusharnavneet/MOCK_INTERVIEWER",
     technologies: ["React.js", "Vite", "TypeScript", "Clerk", "Google Gemini AI", "Shadcn UI"]
   },
- {
-    id: 3,
-    title: "Swiggy - Food Delivery Application Clone",
-    description: "Developed a comprehensive food delivery application clone replicating Swiggy's core functionality. Built with modern JavaScript architecture focusing on user experience, restaurant listings, order management, and responsive design for seamless food ordering experience.",
-    image: "/assets/project1.png",
-    link: "https://github.com/tusharnavneet/Swiggy",
-    technologies: ["JavaScript", "React.js", "CSS", "API Integration"]
-  },
+//  {
+//     id: 3,
+//     title: "Swiggy - Food Delivery Application Clone",
+//     description: "Developed a comprehensive food delivery application clone replicating Swiggy's core functionality. Built with modern JavaScript architecture focusing on user experience, restaurant listings, order management, and responsive design for seamless food ordering experience.",
+//     image: "/assets/project1.png",
+//     link: "https://github.com/tusharnavneet/Swiggy",
+//     technologies: ["JavaScript", "React.js", "CSS", "API Integration"]
+//   },
   {
-    id: 4,
+    id: 3,
     title: "Hanoi Chronicles: A Timed Journey of Moves and Strategies",
     description: "A feature-rich Tower of Hanoi game implementation in C++ offering both manual and automatic gameplay modes. Features point-based scoring, undo functionality, timed gameplay, dynamic visualization, and move validation for an engaging puzzle-solving experience.",
     image: "/assets/project1.png",
     link: "https://github.com/tusharnavneet/Hanoi-Chronicles",
     technologies: ["C++", "Algorithms", "Game Development", "Data Structures"]
   },
-  {
-    id: 5,
-    title: "Chrome Weather Extension",
-    description: "A Chrome browser extension built with JavaScript that provides real-time weather information. Features a clean and intuitive interface for quick weather updates directly from your browser toolbar.",
-    image: "/assets/project1.png",
-    link: "https://github.com/tusharnavneet/Chrome-Weather-Extension",
-    technologies: ["JavaScript", "Chrome Extension API", "HTML", "CSS"]
-  }
+  // {
+  //   id: 5,
+  //   title: "Chrome Weather Extension",
+  //   description: "A Chrome browser extension built with JavaScript that provides real-time weather information. Features a clean and intuitive interface for quick weather updates directly from your browser toolbar.",
+  //   image: "/assets/project1.png",
+  //   link: "https://github.com/tusharnavneet/Chrome-Weather-Extension",
+  //   technologies: ["JavaScript", "Chrome Extension API", "HTML", "CSS"]
+  // }
 ];
 
 export default function Projects() {

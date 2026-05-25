@@ -25,15 +25,11 @@ export default function About() {
         </h2>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-5 lg:mt-10">
-          My name is **Tushar Navneet**. I am a passionate **Full Stack Developer** and quick learner with a self-learning attitude. I love to learn and explore new technologies and am passionate about problem-solving.
+          I'm Tushar Navneet, a Full Stack Developer focused on building scalable web applications and REST APIs. I work across the stack with Angular, JavaScript/TypeScript, Node.js, Django, and SQL/NoSQL databases.
         </p>
 
         <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          I love web development and enjoy making applications that are useful and efficient. My core skills are based on **JavaScript** and the **MERN stack**. I recently completed my internship at **IIT Jammu** and am currently studying **Computer Science Engineering** at **IIIT Senapati**.
-        </p>
-
-        <p className="text-[#71717A] text-sm/6 lg:text-base mt-3 lg:mt-5">
-          I have experience building **AI-powered platforms**, **scalable web applications**, and solving **700+ competitive programming problems**. I enjoy mentoring other developers and am available for job opportunities that match my skills and interests.
+          Most recently, I worked as an SDE Intern at VassarDigital.ai, where I improved a railway anti-collision system, fixed 100+ issues, and refactored 1,700+ lines of code. I also interned at IIT Jammu, delivering production APIs and improving system performance. I’m looking for opportunities to contribute as an SDE and add value through clean, reliable engineering.
         </p>
       </motion.div>
     </div>

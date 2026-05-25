@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaJs, FaReact, FaNodeJs, FaPython, FaGitAlt, FaHtml5, FaCss3Alt, FaBrain } from "react-icons/fa";
+import { FaJs, FaReact, FaNodeJs, FaPython, FaGitAlt, FaHtml5, FaCss3Alt, FaBrain, FaCloud } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { CgFigma } from "react-icons/cg";
 import {
@@ -18,9 +18,7 @@ import {
   SiFastapi,
   SiSqlalchemy,
   SiRedux,
-  SiJava,
   SiFirebase,
-  SiMicrosoftazure,
 } from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
@@ -32,7 +30,7 @@ export default function Skills() {
     { id: 3, name: "Python", icon: <FaPython size={46} /> },
     { id: 4, name: "JavaScript", icon: <FaJs size={46} /> },
     { id: 5, name: "TypeScript", icon: <SiTypescript size={46} /> },
-    { id: 6, name: "Java", icon: <SiJava size={46} /> },
+    // { id: 6, name: "Java", icon: <span style={{ fontSize: 36 }}>☕</span> },
     { id: 7, name: "SQL", icon: <SiPostgresql size={46} /> },
 
     // AI / LLM & Search
@@ -65,7 +63,7 @@ export default function Skills() {
     // DevOps & Cloud
     { id: 29, name: "Docker", icon: <SiDocker size={46} /> },
     { id: 30, name: "Kubernetes", icon: <SiKubernetes size={46} /> },
-    { id: 31, name: "Microsoft Azure", icon: <SiMicrosoftazure size={46} /> },
+    { id: 31, name: "Microsoft Azure", icon: <FaCloud size={46} /> },
     { id: 32, name: "CI/CD", icon: <FaGitAlt size={46} /> },
     { id: 33, name: "Git / GitHub", icon: <FaGitAlt size={46} /> },
     { id: 34, name: "Jira", icon: <FaJs size={46} /> },
