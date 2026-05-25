@@ -6,7 +6,7 @@ const education = [
     id: 1,
     degree: "Bachelor of Technology",
     field: "Computer Science Engineering",
-    institution: "Indian Institute of Information Technology Sonepat, Manipur",
+    institution: "Indian Institute of Information Technology Senapati, Manipur",
     period: "2022 - 2026",
     cgpa: "8.75 / 10.0",
     location: "Manipur, India",

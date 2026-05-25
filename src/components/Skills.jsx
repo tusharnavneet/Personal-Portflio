@@ -1,40 +1,96 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
-import { FaJs, FaReact, FaNodeJs, FaPython, FaGitAlt, FaHtml5, FaCss3Alt } from "react-icons/fa";
+import { FaJs, FaReact, FaNodeJs, FaPython, FaGitAlt, FaHtml5, FaCss3Alt, FaBrain } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { CgFigma } from "react-icons/cg";
-import { SiExpress, SiMongodb, SiMysql, SiTypescript, SiC, SiCplusplus } from "react-icons/si";
+import {
+  SiExpress,
+  SiMongodb,
+  SiMysql,
+  SiTypescript,
+  SiC,
+  SiCplusplus,
+  SiDocker,
+  SiKubernetes,
+  SiPostgresql,
+  SiRedis,
+  SiDjango,
+  SiFastapi,
+  SiSqlalchemy,
+  SiRedux,
+  SiJava,
+  SiFirebase,
+  SiMicrosoftazure,
+} from "react-icons/si";
 import { VscVscode } from "react-icons/vsc";
 
 export default function Skills() {
   const [skills] = useState([
-    { id: 1, name: "C", icon: <SiC size={50} /> },
-    { id: 2, name: "C++", icon: <SiCplusplus size={50} /> },
-    { id: 3, name: "Python", icon: <FaPython size={50} /> },
-    { id: 4, name: "JavaScript", icon: <FaJs size={50} /> },
-    { id: 5, name: "TypeScript", icon: <SiTypescript size={50} /> },
-    { id: 6, name: "HTML5", icon: <FaHtml5 size={50} /> },
-    { id: 7, name: "CSS3", icon: <FaCss3Alt size={50} /> },
-    { id: 8, name: "React.js", icon: <FaReact size={50} /> },
-    { id: 9, name: "Node.js", icon: <FaNodeJs size={50} /> },
-    { id: 10, name: "Express.js", icon: <SiExpress size={50} /> },
-    { id: 11, name: "MongoDB", icon: <SiMongodb size={50} /> },
-    { id: 12, name: "MySQL", icon: <SiMysql size={50} /> },
-    { id: 13, name: "Bootstrap", icon: <RiTailwindCssFill size={50} /> },
-    { id: 14, name: "Git", icon: <FaGitAlt size={50} /> },
-    { id: 15, name: "VS Code", icon: <VscVscode size={50} /> },
-    { id: 16, name: "Figma", icon: <CgFigma size={50} /> },
+    // Languages
+    { id: 1, name: "C", icon: <SiC size={46} /> },
+    { id: 2, name: "C++", icon: <SiCplusplus size={46} /> },
+    { id: 3, name: "Python", icon: <FaPython size={46} /> },
+    { id: 4, name: "JavaScript", icon: <FaJs size={46} /> },
+    { id: 5, name: "TypeScript", icon: <SiTypescript size={46} /> },
+    { id: 6, name: "Java", icon: <SiJava size={46} /> },
+    { id: 7, name: "SQL", icon: <SiPostgresql size={46} /> },
+
+    // AI / LLM & Search
+    { id: 8, name: "RAG", icon: <FaBrain size={46} /> },
+    { id: 9, name: "LangChain", icon: <FaBrain size={46} /> },
+    { id: 10, name: "LangGraph", icon: <FaBrain size={46} /> },
+    { id: 11, name: "Prompt Engineering", icon: <FaBrain size={46} /> },
+    { id: 12, name: "Agentic AI", icon: <FaBrain size={46} /> },
+    { id: 13, name: "HNSW / IVF", icon: <FaBrain size={46} /> },
+    { id: 14, name: "Hybrid Search", icon: <FaBrain size={46} /> },
+    { id: 15, name: "pgvector", icon: <FaBrain size={46} /> },
+
+    // Full-Stack
+    { id: 16, name: "React.js", icon: <FaReact size={46} /> },
+    { id: 17, name: "Redux", icon: <SiRedux size={46} /> },
+    { id: 18, name: "Node.js", icon: <FaNodeJs size={46} /> },
+    { id: 19, name: "Express.js", icon: <SiExpress size={46} /> },
+    { id: 20, name: "Django", icon: <SiDjango size={46} /> },
+    { id: 21, name: "FastAPI", icon: <SiFastapi size={46} /> },
+    { id: 22, name: "SQLAlchemy", icon: <SiSqlalchemy size={46} /> },
+    { id: 23, name: "REST APIs", icon: <FaJs size={46} /> },
+
+    // Databases
+    { id: 24, name: "PostgreSQL", icon: <SiPostgresql size={46} /> },
+    { id: 25, name: "MySQL", icon: <SiMysql size={46} /> },
+    { id: 26, name: "MongoDB", icon: <SiMongodb size={46} /> },
+    { id: 27, name: "Firebase", icon: <SiFirebase size={46} /> },
+    { id: 28, name: "Redis", icon: <SiRedis size={46} /> },
+
+    // DevOps & Cloud
+    { id: 29, name: "Docker", icon: <SiDocker size={46} /> },
+    { id: 30, name: "Kubernetes", icon: <SiKubernetes size={46} /> },
+    { id: 31, name: "Microsoft Azure", icon: <SiMicrosoftazure size={46} /> },
+    { id: 32, name: "CI/CD", icon: <FaGitAlt size={46} /> },
+    { id: 33, name: "Git / GitHub", icon: <FaGitAlt size={46} /> },
+    { id: 34, name: "Jira", icon: <FaJs size={46} /> },
+    { id: 35, name: "VS Code", icon: <VscVscode size={46} /> },
+    { id: 36, name: "Figma", icon: <CgFigma size={46} /> },
   ]);
 
   const [experiences] = useState([
     {
       id: 1,
-      company: "IIT Jammu",
-      role: "Full Stack Developer Intern",
-      period: "June 2025 - Aug 2025",
+      company: "VassarDigital.ai",
+      role: "Software Development Engineer Intern",
+      period: "Jan 2026 - Present",
       description:
-        "Developed responsive MERN stack web applications, enhancing feature sets and improving overall user experience. Designed and deployed scalable back-end services with RESTful APIs, ensuring efficient and secure data operations. Facilitated Agile team collaboration through Git-based version control and structured peer code reviews, maintaining high code quality standards.",
-      logo: "/assets/google.svg",
+        "Enhanced the Revision History Module from v1 to v2 for a railway anti-collision station layout system. Resolved 100+ bugs in RFID and update-regenerate logic within a safety-critical railway infrastructure platform. Refactored 1,700+ lines across frontend and backend, improving modularity, maintainability, and scalability. Collaborated with the Kernex team to implement railway-specific operational rules across zones, divisions, and stations. Developed full-stack features using Angular (TypeScript) and Django (Python).",
+      logo: "/assets/vassar.svg",
+    },
+    {
+      id: 2,
+      company: "IIT Jammu",
+      role: "Software Development Engineer Intern",
+      period: "Jun 2025 - Aug 2025",
+      description:
+        "Delivered 10+ RESTful APIs for a production web application, achieving sub-700 ms response times under concurrent load. Conducted 15+ Git-based code reviews per week in Agile sprints, reducing bug reports by 30%.",
+      logo: "/assets/iit-jammu.svg",
     },
     // {
     //   id: 2,
