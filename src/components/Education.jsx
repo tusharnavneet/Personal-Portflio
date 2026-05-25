@@ -8,7 +8,7 @@ const education = [
     field: "Computer Science Engineering",
     institution: "Indian Institute of Information Technology Sonepat, Manipur",
     period: "2022 - 2026",
-    cgpa: "8.69 / 10.0",
+    cgpa: "8.75 / 10.0",
     location: "Manipur, India",
     coursework: [
       "Data Structures & Algorithms",
